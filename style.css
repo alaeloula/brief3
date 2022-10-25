@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    text-decoration: none;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+.header{
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    width: 100%;
+}
+.header .right{
+    width: 50%;
+}
+.header .right img{
+    width: 100px;
+    height: auto;
+    /* border: 1px solid; */
+}
+.header .left{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 50%;
+    align-items: center;
+}
+.header .left div{
+    /* text-align: center; */
+    
+}
+.imgkbira{
+    width: 100%;
+    height: 50vh;
+    background-image: url(img/large.jpg);
+    background-position: center;
+    
+}
+.part1{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.part1 .description{
+    align-items: center;
+    text-align: center;
+    width: 20%;
+}
+.part1 .plat img{
+      width: 300px;
+      border-radius: 15px;
+}
+
+.part2{
+    display: flex;
+    justify-content: space-around;
+}
+.part2 input{
+    width: 100px;
+    height: 50px;
+    /* align-self: center; */
+}
+.bezzf{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.citation{
+    width: 100%;
+    height: 20vh;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkorange;
+    
+}
+.citation div{
+    width: 40%;
+}
+.footer{
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo_footer img{
+    width: 10vw;
+}
+.menu_footer ul{
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+    color: rgb(55, 15, 0);
+}
+.copyright_footer{
+    align-self: flex-start;
+}
