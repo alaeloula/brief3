@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a id="closeBtn" href="#" class="close">×</a>
+        <ul>
+          <li><a href="#">A propos</a></li>
+          <li><a href="#">Nos services</a></li>
+          <li><a href="#">Témoignages</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      
+      <a href="#" id="openBtn">
+        <span class="burger-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+      </a>
+      <script>var sidenav = document.getElementById("mySidenav");
+        var openBtn = document.getElementById("openBtn");
+        var closeBtn = document.getElementById("closeBtn");
+        
+        openBtn.onclick = openNav;
+        closeBtn.onclick = closeNav;
+        
+        /* Set the width of the side navigation to 250px */
+        function openNav() {
+          sidenav.classList.add("active");
+        }
+        
+        /* Set the width of the side navigation to 0 */
+        function closeNav() {
+          sidenav.classList.remove("active");
+        }
+        </script>
+</body>
+</html>
