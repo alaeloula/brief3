@@ -2,7 +2,12 @@
     margin: 0;
     text-decoration: none;
 }
-
+.Salades{
+    display: none;
+}
+.Plat{
+    display: none;
+}
 .container{
     width: 90%;
     margin: auto;
@@ -220,6 +225,7 @@
     width: 40%;
   }
   .menug .carte ul{
+    padding-inline-start: 0px;
     display: flex;
     justify-content: space-around;
     list-style: none;
@@ -339,12 +345,19 @@
         width: 100%;
         
     }
-    .menug .carte ul{
+    /* .menug .carte ul{
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         list-style: none;
         
-      }
+      } */
+      .menug .carte ul{
+        width:80%;
+          display: flex;
+          justify-content: space-around;
+          /* align-items: center; */
+          /* list-style: none; */
+        }
       .produit{
         width: 80%;
         display: flex;
@@ -371,5 +384,50 @@
     display: none;
   }
 
+
+  @media screen and (max-width: 600px){
+    .part1_about {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .part1_about .right .tsewrat2 {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        margin-bottom: 15px;
+
+    }
+    .part1_about .right .tsewrat2 img{
+        margin-bottom: 15px;
+        width: 250px;
+    }
+    .redpart{
+        display: none;
+    }
+  }
+
+  @media screen and (max-width: 600px){
+    .cnt {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .localisation{
+        width: 90%;
+        align-self: flex-start;
+    }
+    .mapouter{
+        width: 100% !important;
+        margin: auto;
+    }
+    .gmap_canvas {
+        overflow: hidden;
+        background: none !important;
+        height: 400px ;
+        width: 100% !important;
+    }
+  }
 
  
