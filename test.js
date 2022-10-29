@@ -12,10 +12,12 @@ let data=[
     }
 ];
 //  document.getElementById("add").innerHTML = "Hello World!";
-var heho=document.getElementById("heho")
-
+var heho=document.getElementById("heho");
+let var1 = document.getElementById("add");
+// var1.innerHTML="<p>ghjgbhvvgb</p>";
 heho.addEventListener("click",function(){
-    document.getElementById("add").innerHTML = '<div class="pd"><img src="public/playground_assets/imagei582-gws-300h.png" alt="pd1" srcset=""><div class="txt" ><label for="">nom</label> <input type="submit" value="add" name="heho"></div></div>';
+//    var1.classList.add("pde");
+    var1.innerHTML += '<div class="pd"><img src="public/playground_assets/imagei582-gws-300h.png" alt="pd1" srcset=""><div class="txt" ><label for="">nom</label> <input type="submit" value="add" name="heho"></div></div><br>';
  })
 // kandiruuuuuuuuuuuuuuuuu
 
