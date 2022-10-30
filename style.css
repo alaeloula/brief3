@@ -266,6 +266,7 @@
     border: 1px solid;
     width: 40%;
   }
+  
 
 
 
@@ -377,7 +378,7 @@
       }
       .check{
         width: 100%;
-        height: 30vh;
+        /* height: 30vh; */
       }
   }
   .active {
