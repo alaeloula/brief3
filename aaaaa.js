@@ -13,7 +13,7 @@
 function Template(id, img, nom, prix) {
     return `<div class="pd" id="${id}">
     <img src="${img}" alt="pd1" srcset="">
-    <div class="txt">
+    <div class="txt" id="txt">
         <label for="">${nom}</label>
         <strong>${prix}</strong>
     </div>
@@ -25,12 +25,10 @@ function Template(id, img, nom, prix) {
 function Template2(id, img, nom, prix) {
     return `<div class="pd" id="${id}">
     <img src="${img}" alt="pd1" srcset="">
-    <div class="txt">
+    <div class="txt" id="txt">
         <label for="">${nom}</label>
         <strong>${prix}</strong>
     </div>
-    
-
     </div>`
 }
 // let cart = document.querySelector("#add");
