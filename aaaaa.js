@@ -77,7 +77,7 @@ let produits = [
     },
     {
         "id": "2",
-        "img": "public/playground_assets/imagei582-gws-300h.png",
+        "img": "public/playground_assets/riccardobergaminio2ynzxdqou0unsplash1i582-nr3h-300h.png",
         "nom": "nom1",
         "prix": 30,
 
@@ -116,7 +116,7 @@ let produits = [
 let plat = [
     {
         "id": "7",
-        "img": "public/playground_assets/imagei582-gws-300h.png",
+        "img": "public/playground_assets/plat41i582-4e6t-300h.png",
         "nom": "plat",
         "prix": 50,
     },
@@ -160,14 +160,14 @@ let plat = [
 let salades = [
     {
         "id": "13",
-        "img": "public/playground_assets/imagei582-gws-300h.png",
+        "img": "public/playground_assets/salad21i582-w0lf-300h.png",
         "nom": "ssalade",
         "prix": 50,
 
     },
     {
         "id": "14",
-        "img": "public/playground_assets/imagei582-gws-300h.png",
+        "img": "public/playground_assets/salad11i582-vjiw-300h.png",
         "nom": "ssalade",
         "prix": 30,
 
