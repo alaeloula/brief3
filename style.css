@@ -19,7 +19,7 @@
 .header {
   /* border: 1px solid; */
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   height: 100px;
   width: 100%;
 }
@@ -34,17 +34,18 @@
   /* border: 1px solid; */
 }
 
-.header .left {
-  display: flex;
+ .header .left  {
+ display: flex;
   justify-content: space-around;
   text-align: center;
-  width: 50%;
   align-items: center;
-}
+  width: 50%;
+  
+} 
 
-.ktba {
+.header .left .ktba {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   text-align: center;
   width: 100%;
   align-items: center;
@@ -56,12 +57,17 @@
 .ktba2 {
   display: none;
 }
+.burger-icon{
+  align-self: flex-end;
+  float: right;
+}
 .burger-icon span {
   display: none;
   width: 35px;
   height: 5px;
   background-color: black;
-  margin: 6px 0;
+  
+  /* margin: 6px 0; */
 }
 
 /* .ktba2{
@@ -132,6 +138,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .logo_footer img {
@@ -146,6 +153,7 @@
 }
 
 .copyright_footer {
+  margin-top: 10px;
   align-self: flex-start;
 }
 
@@ -256,10 +264,11 @@ textarea {
 
 .categorie {
   display: flex;
-  gap: 80px;
- margin-left: 50px;
-  /* width: 30% ; */
-
+  justify-content: space-around;
+  /* gap: 80px; */
+ /* margin-left: 50px; */
+   width: 70% ; 
+flex-wrap: wrap;
   list-style: none;
   margin-bottom: 10px;
 }
@@ -367,6 +376,12 @@ textarea {
     height: 5px;
     background-color: black;
     margin: 6px 0;
+    align-self: flex-end;
+  }
+  .header .left{
+    padding-right: 20px;
+    justify-content: flex-end;
+
   }
 
   .header .left .ktba {
@@ -401,24 +416,37 @@ textarea {
 
   .part1 .description {
     width: 100%;
-    margin-bottom: 10px;
+    /* margin-bottom: 20px; */
+    
   }
 
   .part2 {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     width: 100%;
     align-items: center;
     margin: auto;
   }
+  .part2 .tsewrate{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    justify-content: space-around;
+    margin-top: auto;
+  }
+  .part2 .tsewrate img{
+    margin-top: 10px;
+  }
 
   .part2 .bezzf {
     align-items: center;
+    margin: auto;
   }
 
   .citation {
     width: 100%;
-    height: 30vh;
+     height: 30vh; 
     border: 1px solid;
     display: flex;
     align-items: center;
